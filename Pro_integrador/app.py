@@ -13,7 +13,7 @@ app.config['MYSQL_HOST']='localhost'
 #app.config['MYSQL_DB']='dbflask'  # Nombre de la base de datos
 #app.secret_key='mysecretkey'
 #mysql= MySQL(app)
-
+#hola a todos 
 # Declaración de las rutas hhtp://localhost:5000 ---------------------
 
   # Ruta principal -------------
