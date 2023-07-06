@@ -68,7 +68,7 @@ def canchas():
 @app.route('/Registro-admision')
 def registro():
     return render_template('REGISTRO_ADMISION.html')
-
+# Hola a todos
 # ruta http:localhost:500/guardar tipo POST para Insert
 @app.route('/guardar')
 def guardar():
