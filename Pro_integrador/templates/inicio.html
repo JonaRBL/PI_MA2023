@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://calareo.ca/wp-content/uploads/2020/10/UPQ-logo.png" type="image/x-icon">
+    <title>Conocenos</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style2.css')}}">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+          <h1 class="letra">Conocenos</h1>
+            <div class="text-center">
+                <a class="btn btn-primary" href=/Registro-admision> Registrar Proc. Admisión </a>
+            </div>
+        <br>
+        <form>
+            <div class="text-end">
+                <input class="btn btn-warning" type="submit" formaction="/" value="Salir">
+            </div>
+        </form>
+      </nav>
+     <br>
+     <br>
+
+    <div class="container">
+            <a href=/EdificioA>
+                <div class="cuadro" style="background-image: url({{ url_for('static', filename='imagenes/edificioA.jpg') }});">
+                    <span class="texto">Edificio A</span>
+                </div>
+            </a>
+        <a href=/EdificioB>
+            <div class="cuadro" style="background-image:url({{ url_for('static', filename='imagenes/edificioB.jpg') }});">
+               <span class="texto">Edificio B</span>
+            </div>
+         </a>
+         <a href=/EdificioC>
+            <div class="cuadro" style="background-image:url({{ url_for('static', filename='imagenes/edificioC.jpg') }});">
+               <span class="texto">Edificio C</span>
+            </div>
+         </a>
+        <a href=/CIDEA>
+            <div class="cuadro" style="background-image:url({{ url_for('static', filename='imagenes/cidea.jpg') }});">
+                <span class="texto">CIDEA</span>
+            </div>
+        </a>
+        <a href=/CAPTA>
+            <div class="cuadro" style="background-image: url({{ url_for('static', filename='imagenes/capta.jpg') }});">
+                <span class="texto">CAPTA</span>
+            </div>
+        </a>
+        <a href=/LT>
+            <div class="cuadro" style="background-image:url({{ url_for('static', filename='imagenes/edificioLT1.jpg') }});">
+               <span class="texto">Edificio LT1</span>
+            </div>
+         </a>
+        <a href=/Biblioteca>
+            <div class="cuadro" style="background-image: url({{ url_for('static', filename='imagenes/biblioteca.png') }});">
+                <span class="texto">Biblioteca</span>
+            </div>
+        </a>
+        <a href=/LakafeUPQ>
+            <div class="cuadro" style="background-image:url({{ url_for('static', filename='imagenes/cafeteria.jpg') }});">
+                <span class="texto">La Kafe UPQ</span>
+            </div>
+        </a>
+        <a href=/Talleres>
+            <div class="cuadro" style="background-image:url({{ url_for('static', filename='imagenes/edificioT.jpg') }});">
+               <span class="texto">Edificio Talleres</span>
+            </div>
+         </a>
+         <a href=/Canchas>
+            <div class="cuadro" style="background-image:url({{ url_for('static', filename='imagenes/canchas.png') }});">
+               <span class="texto">Canchas</span>
+            </div>
+         </a>
+     </div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
